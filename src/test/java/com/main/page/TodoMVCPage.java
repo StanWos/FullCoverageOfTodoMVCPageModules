@@ -90,15 +90,16 @@ public class TodoMVCPage {
     //  ******* Implementing Precondition-helpers *******
 
     public static enum TaskType {
+
         ACTIVE("false"), COMPLETED("true");
 
-        public static String flag;
+        public String flag;
 
         TaskType(String flag) {
             this.flag = flag;
         }
 
-        public static String getFlag() {
+        public String getFlag() {
             return flag;
         }
     }

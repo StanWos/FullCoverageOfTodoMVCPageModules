@@ -1,6 +1,5 @@
 package com.main;
 
-import com.main.page.TodoMVCPage;
 import org.junit.Test;
 
 import static com.main.page.TodoMVCPage.*;
