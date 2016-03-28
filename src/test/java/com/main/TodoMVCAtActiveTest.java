@@ -2,13 +2,13 @@ package com.main;
 
 import org.junit.Test;
 
-import static com.main.page.TodoMVCPage.*;
-import static com.main.page.TodoMVCPage.TaskType.*;
+import static pages.TodoMVC.*;
+import static pages.TodoMVC.TaskType.*;
 
 /**
  * Created by stan on 25.03.16.
  */
-public class TodoMVCTestAtActive {
+public class TodoMVCAtActiveTest {
 
     @Test
     public void testEditAtActive() {

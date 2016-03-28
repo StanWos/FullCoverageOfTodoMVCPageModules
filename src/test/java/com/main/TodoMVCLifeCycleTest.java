@@ -1,12 +1,12 @@
 package com.main;
 
 import org.junit.Test;
-import static com.main.page.TodoMVCPage.*;
+import static pages.TodoMVC.*;
 
 /**
  * Created by stan on 21.03.16.
  */
-public class TodoMVCTestLifeCycle {
+public class TodoMVCLifeCycleTest {
 
     @Test
     public void testTaskLifeCycle() {

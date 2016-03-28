@@ -1,4 +1,4 @@
-package com.main.page;
+package pages;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
@@ -16,7 +16,7 @@ import static com.codeborne.selenide.WebDriverRunner.url;
 /**
  * Created by stan on 25.03.16.
  */
-public class TodoMVCPage {
+public class TodoMVC {
 
     public static ElementsCollection tasks = $$("#todo-list li");
     public static SelenideElement newTodo = $("#new-todo");
